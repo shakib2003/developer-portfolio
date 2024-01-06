@@ -102,10 +102,6 @@ nav a {
   max-width: 500px;
 }
 
-.last-btn {
-  margin-left: 30px;
-}
-
 
 /* main section styles */
 
@@ -165,4 +161,34 @@ main section {
   color: #474747;
   font-size: 30px;
   font-weight: 700;
+}
+
+.resume-container {
+  display: flex;
+  gap: 70px;
+}
+
+.resume-item-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.resume-item-institute {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.resume-item-description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+}
+.resume-container hr{
+  margin: 30px 0;
+}
+
+.download-cv {
+  text-align: center;
+  margin-top: 50px;
 }
